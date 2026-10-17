@@ -1,0 +1,13 @@
+# Generated at runtime by pxe_server.py
+boot.ipxe
+*.log
+
+# Large / third-party binaries - see README for how to obtain them
+linux26
+initrd
+initrd.orig
+*.iso
+*.efi
+*.kpxe
+
+__pycache__/
