@@ -48,7 +48,7 @@ The binaries (kernel, initrd, iPXE) are **not** in the repo. You download or ext
 **1. Clone the repo**
 
 ```powershell
-git clone https://github.com/c-dunc/proxmox-pxe.git
+git clone https://github.com/sqlinject/proxmox-pxe.git
 cd proxmox-pxe
 ```
 
@@ -133,3 +133,7 @@ You can also delete `initrd`, which is ~1.7 GB. It can be rebuilt at any time.
 ## Adapting it
 
 Nothing here is specific to Proxmox except the menu in `write_boot_script()` in `pxe_server.py`. Swap in another kernel/initrd and edit the iPXE script to boot something else.
+
+## License
+
+[MIT](LICENSE). iPXE and Proxmox VE are separate projects under their own licences and are not distributed here.
